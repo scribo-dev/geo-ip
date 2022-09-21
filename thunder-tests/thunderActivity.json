@@ -17,5 +17,24 @@
       "form": []
     },
     "tests": []
+  },
+  {
+    "_id": "7f4b3b03-b3a3-403c-8d63-d96f12158e1a",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:3000/api/location Copy",
+    "url": "https://geo-ip.vercel.app/api/location",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-09-21T20:48:20.280Z",
+    "modified": "2022-09-21T21:03:05.231Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"locations\": [\n    {\n      \"city\": \"Assis\", \n      \"latitude\": -22.659002067362124, \n      \"longitude\": -50.419414084667785\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": []
   }
 ]

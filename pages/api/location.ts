@@ -20,7 +20,7 @@ export default async function handler(req: NextRequest) {
           location.longitude,
           "K"
         );
-
+        console.log(closest);
         if (!closest || closest < closestDistance) {
           closestDistance = closest;
           closestCity = location;
