@@ -21,7 +21,7 @@ export default async function handler(req: NextRequest) {
           "K"
         );
         console.log(closest);
-        if (!closest || closest < closestDistance) {
+        if (!closestDistance || closest < closestDistance) {
           closestDistance = closest;
           closestCity = location;
         }
