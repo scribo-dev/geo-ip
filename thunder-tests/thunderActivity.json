@@ -27,12 +27,12 @@
     "method": "POST",
     "sortNum": 0,
     "created": "2022-09-21T20:48:20.280Z",
-    "modified": "2022-09-21T21:04:58.234Z",
+    "modified": "2022-09-21T21:07:20.174Z",
     "headers": [],
     "params": [],
     "body": {
       "type": "json",
-      "raw": "{\n  \"locations\": [\n    {\n      \"city\": \"Assis\", \n      \"latitude\": -22.659002067362124, \n      \"longitude\": -50.419414084667785\n    }\n  ]\n}",
+      "raw": "{\n  \"locations\": [\n    {\n      \"city\": \"Assis\", \n      \"latitude\": -22.659002067362124, \n      \"longitude\": -50.419414084667785\n    },\n    {\n      \"city\": \"BH\", \n      \"latitude\": -19.9029, \n      \"longitude\": -43.9572\n    }\n  ]\n}",
       "form": []
     },
     "tests": []

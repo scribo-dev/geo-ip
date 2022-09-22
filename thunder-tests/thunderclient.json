@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "_id": "56a3f8e7-52df-42f5-8b94-6fb4013eb3a7",
+    "colId": "003e65a8-d1f4-4e01-9936-f17848bed9ab",
+    "containerId": "",
+    "name": "Distance",
+    "url": "{{API}}/location",
+    "method": "POST",
+    "sortNum": 10000,
+    "created": "2022-09-21T21:08:41.299Z",
+    "modified": "2022-09-21T21:23:01.093Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"locations\": [\n    {\n      \"city\": \"Assis\", \n      \"latitude\": -22.659002067362124, \n      \"longitude\": -50.419414084667785\n    }\n  ]\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
