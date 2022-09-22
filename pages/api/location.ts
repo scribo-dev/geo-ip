@@ -1,4 +1,5 @@
 import { NextRequest } from "next/server";
+import cors from "../../lib/cors";
 import { distance } from "../../lib/distance";
 
 export const config = {
@@ -20,14 +21,14 @@ export default async function handler(req: NextRequest) {
           location.longitude,
           "K"
         );
-        console.log(closest);
+
         if (!closestDistance || closest < closestDistance) {
           closestDistance = closest;
           closestCity = location;
         }
       }
-      return new Response(JSON.stringify({ closestCity }));
+      return cors(req, new Response(JSON.stringify({ closestCity })));
     default:
-      return new Response(JSON.stringify(req.geo));
+      return cors(req, new Response(JSON.stringify(req.geo)));
   }
 }
